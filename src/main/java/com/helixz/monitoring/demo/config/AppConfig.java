@@ -20,7 +20,7 @@ public class AppConfig {
     }
 
     @Bean
-    public Docket api() {
+    public Docket swaggerDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.any())
