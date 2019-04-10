@@ -30,7 +30,8 @@ public class CustomerController {
     @Autowired
     private ModelMapper modelMapper;
 
-    @ApiOperation("Customer create API Documentation is here")
+    @ApiOperation(value = "Customer create API Documentation is here", notes = "Notes about Customer create API",
+            response = CustomerCreateResponse.class)
     @PostMapping
     public ResponseEntity<CustomerCreateResponse> create(@Validated @RequestBody CustomerCreateRequest request) {
         Customer customer = modelMapper.map(request, Customer.class);

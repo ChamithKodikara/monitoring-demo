@@ -13,7 +13,8 @@
     <version>1.0.0</version>
     <name>monitoring-demo</name>
     <description>
-        Demo project for Spring Boot application performance monitoring and REST API documentation
+        Demo project for Spring Boot application performance monitoring and REST API documentation using Swagger,
+        Micrometer, Actuator, Prometheus and Grafana
     </description>
 
     <properties>
