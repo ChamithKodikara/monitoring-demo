@@ -20,7 +20,7 @@
     <properties>
         <java.version>1.8</java.version>
         <model-mapper.version>2.3.2</model-mapper.version>
-        <springfox-version>2.9.2</springfox-version>
+        <springfox-version>2.10.0</springfox-version>
     </properties>
 
     <dependencies>
